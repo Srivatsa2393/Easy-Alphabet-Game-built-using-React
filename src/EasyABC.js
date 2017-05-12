@@ -149,8 +149,6 @@ class EasyABC extends React.Component{
             <audio src={this.state.alphabets[this.state.currentPosition].letterSound}
               data-key="letter" />
           </div>
-          Current Position: {this.state.currentPosition}<br/>
-          Current Tick: {this.state.currentTick}
           <div className="buttons">
             <a className="button prev" onClick={this.prev}>Previous</a>
             <a className="button sound" onClick={this.manualPlaySound}>Play Sound Again</a>
@@ -175,6 +173,7 @@ class EasyABC extends React.Component{
             </div>
           </div>
         </div>
+          <div>Link to my Github Profile <a href="https://github.com/Srivatsa2393">Srivatsa</a></div>
       </div>
     );
   }
